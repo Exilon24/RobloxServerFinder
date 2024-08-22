@@ -22,6 +22,17 @@ Then go to the directory `roServerFinder.py` is in and run `python roServerFinde
 
 This will open a browser window, requesting to join a roblox game. It will prompt you to allow roblox to open. If you decline, roblox will not open. The browser window will automatically close after you join.
 
+# Finding the roblox cookie
+
+1. Download a cookie editor extension. I use [this one](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=en)
+2. Go to [roblox](https://www.roblox.com/home)
+3. Log into the account you want the cookie for
+4. Open the extension and copy your `.ROBLOSECURITY` cookie and paste it into the robloxserverfinder python script:
+![image](https://github.com/user-attachments/assets/7454606a-25f5-4365-a438-514401a9a84d)
+
+**Do not show this string to anyone, doing so will allow them to log into your account. If you do share it, use the extension to clear your cookies and re-login to your account**
+
+
 # Security concerns
 ## This program requires your roblox cookie to work
 It will NOT automatically get these cookies. You must provide them yourself
